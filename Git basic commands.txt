@@ -1,0 +1,28 @@
+version -----> git---version
+change directory ----.cd
+ls ----> listng all the folders in the directory
+git init ---> to make file as git 
+pwd ---->current directory
+status --->to see any cahnges
+git diff filename ---> to see what changes are done
+git add filename ---> to addd the cnew changes in file
+git commit---> to make a lock on the new changes
+git commit -m "message" --> will not work until it add is not( changes will show in the staged area)
+git  checkout -b branchnames --> show the n no of branches 
+git checkout--> to make a new branch 
+git branch -d  branchnames --> to delete the file
+to switch b/w the branches we have to use git checkout branch name
+we  have to checkout from that branch before deleting that branch 
+git merge branch name --> to merge the file in the main
+git log : to see who have worked on the branch earlier
+git reset --hard HEAD : to delete the lastest commit (type of undo)
+git reset --soft  conmmit id: see the code change can be seen 
+git pull : to sink the commit history of all the people working on same project which is shiwn in log
+git push : to merge th code with local and remote cpmputers
+git restore -- staged index.html :to bring the last change we have done
+git commit --amend to lock the changes without adding new commit
+if the layout changes after any commannd press i and write initial commit (this is message ) 
+and press W Q
+to create a new file : touch file name
+to add more than one file in staging area :git add -A
+git rmm --cached filename : to remove a file from staging area after a commit 
