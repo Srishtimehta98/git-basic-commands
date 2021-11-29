@@ -25,4 +25,5 @@ if the layout changes after any commannd press i and write initial commit (this 
 and press W Q
 to create a new file : touch file name
 to add more than one file in staging area :git add -A
-git rmm --cached filename : to remove a file from staging area after a commit 
+git rm --cached filename : to remove a file from staging area after a commit 
+****After going through thse commands you will be able to use git easily***
